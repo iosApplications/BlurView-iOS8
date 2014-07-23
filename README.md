@@ -1,7 +1,13 @@
 ---
 BlurView-iOS8
 
-Apply a UIVisualEffectView to an existing view to apply a blur or vibrancy effect to the exiting view. After you add the UIVisualEffectView to the view hierarchy, add any subviews to the contentView of the UIVisualEffectView.
+This tutorial comtains different default Blur Effects available in iOS 8. 
+
+- Dark Blur Effect 
+- Light Blur Effect 
+- Extra Light Blur Effect
+
+To get a Blur or Vibrancy effect on any given view, add a UIVisualEffectView to it. Once added to the view hierarchy, add any subviews to the contentView of a UIVisualEffectView.
 
 Vibrancy effect is required only when we add clear text or clear color image on blur view, else simple UIVisualEffectView with blurEffect it self is enough.
 
